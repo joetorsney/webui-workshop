@@ -62,7 +62,7 @@ describe('Browser', () => {
         const aboutButtonClassList = await page.evaluate(() => 
             document.querySelector('body > div > div:nth-child(2)').classList)
 
-        assert.deepStrictEqual(aboutButtonClassList, {0: 'btn'})
+        assert.deepStrictEqual(aboutButtonClassList, {0: 'btn'}) 
     })
 
     // This is broken for now :(
